@@ -1,4 +1,4 @@
-# Redes-De-Computadores #
+# :globe_with_meridians: Redes-De-Computadores #
 
 #### Xirrus Inspetor de Wi-Fi ####
 #### https://xirrus-wi-fi-inspector.en.download.it/ ####
@@ -6,7 +6,7 @@
 #### Simulador de Rede Cisco Packet Tracer ####
 #### https://www.netacad.com/courses/packet-tracer ####
 
-## Modelos de Redes: OSI e TCP/IP ##
+## :pushpin:Modelos de Redes: OSI e TCP/IP ##
 
 ![Figura-3-Modelo-OSI-e-TCP-IP](https://github.com/flitzso/redes-de-computadores/assets/106411702/deb3ec1f-64c9-472b-a166-c158f894435e)
 
@@ -35,3 +35,54 @@
 ##### Fornecer serviços de transporte confiável e controle de fluxo, semelhante à camada correspondente no Modelo OSI. #####
 #### Camada de Aplicação: ####
 ##### Equivalente à camada de aplicação no Modelo OSI, fornece serviços de rede para aplicativos, como HTTP, SMTP e FTP. #####
+
+
+## :pushpin:Protocolos e serviços de rede comuns ##
+
+![star](https://github.com/flitzso/redes-de-computadores/assets/106411702/0e401592-f1e9-4519-86bb-8619f315ea55)
+
+#### HTTP (Hypertext Transfer Protocol): ####
+##### Usado para transferência de páginas da web e conteúdo. #####
+#### HTTPS (HTTP Secure): ####
+##### Uma versão segura do HTTP que criptografa os dados transmitidos. #####
+#### FTP (File Transfer Protocol): ####
+##### Utilizado para transferência de arquivos entre computadores em uma rede. #####
+#### SMTP (Simple Mail Transfer Protocol): ####
+##### Protocolo de envio de e-mails. #####
+#### POP3 (Post Office Protocol, versão 3): ####
+##### Protocolo de recebimento de e-mails. #####
+#### IMAP (Internet Message Access Protocol): ####
+##### Protocolo de acesso a e-mails mais avançado que permite gerenciar mensagens no servidor. #####
+#### DNS (Domain Name System): ####
+##### Converte nomes de domínio em endereços IP para roteamento na internet. #####
+### Protocolos de Camada de Transporte: ###
+#### TCP (Transmission Control Protocol): ####
+##### Fornece comunicação confiável e orientada à conexão. #####
+#### UDP (User Datagram Protocol): ####
+##### Oferece comunicação não confiável e de baixa latência. #####
+### Protocolos de Camada de Rede: ###
+#### IPv4 (Internet Protocol version 4): ####
+##### A versão mais amplamente usada do protocolo de internet. #####
+#### IPv6 (Internet Protocol version 6): ####
+##### Uma versão mais recente que oferece suporte a um número maior de endereços IP. #####
+#### ICMP (Internet Control Message Protocol): ####
+##### Usado para diagnóstico de problemas de rede e envio de mensagens de erro. #####
+### Protocolos de Camada de Link de Dados: ###
+#### Ethernet: ####
+##### Protocolo amplamente utilizado para comunicação em redes locais (LANs). #####
+#### Wi-Fi (802.11): ####
+##### Padrão para redes sem fio. #####
+### Serviços de Segurança: ###
+#### SSL/TLS (Secure Sockets Layer/Transport Layer Security): ####
+##### Usado para criptografar a comunicação na internet. #####
+#### VPN (Virtual Private Network): ####
+##### Permite a criação de redes privadas virtuais para comunicação segura pela internet. #####
+### Serviços de Rede: ###
+#### DHCP (Dynamic Host Configuration Protocol): ####
+##### Usado para atribuir endereços IP automaticamente a dispositivos em uma rede. #####
+#### NAT (Network Address Translation): ####
+##### Redireciona o tráfego de rede entre redes públicas e privadas. #####
+#### Proxy Server: ####
+##### Intermediário entre os dispositivos da rede e a internet, usado para filtragem e caching de conteúdo. #####
+#### Firewall: ####
+##### Utilizado para proteger a rede controlando o tráfego de entrada e saída. #####
