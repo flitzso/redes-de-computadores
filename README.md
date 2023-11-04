@@ -156,3 +156,77 @@
 ##### Os cabos são o meio físico que transporta os sinais elétricos ou ópticos entre os dispositivos de rede. Diferentes tipos de cabos são usados em redes, incluindo cabos de par trançado, cabos coaxiais, cabos de fibra óptica e cabos de par trançado blindado. #####
 #### Utilização: ####
 ##### A escolha do tipo de cabo depende das necessidades da rede. Cabos de par trançado são comuns em redes Ethernet, enquanto cabos de fibra óptica são usados para redes de alta velocidade e longas distâncias. #####
+
+## :pushpin:Topologias de rede: estrela, anel, barramento ##
+![figura-22](https://github.com/flitzso/redes-de-computadores/assets/106411702/b9057015-c153-4b6f-851c-e9758a2aca07)
+
+### :round_pushpin:Topologia de Estrela: ###
+
+#### Descrição: ####
+##### Na topologia de estrela, todos os dispositivos na rede são conectados a um único dispositivo central, como um switch ou um hub. Não há conexões diretas entre os dispositivos de ponta a ponta. #####
+#### Vantagens: ####
+##### * Facilidade de instalação e manutenção. #####
+##### *falhas em um dispositivo não afetam diretamente os outros dispositivos na rede. #####
+##### *Facilita a detecção de problemas e a resolução de falhas. #####
+#### Desvantagens: ####
+##### *Dependência do dispositivo central (hub ou switch); se ele falhar, a rede pode ficar inoperante. #####
+##### *Custo adicional para a instalação de cabos até o dispositivo central. #####
+
+### :round_pushpin:Topologia em Anel: ###
+#### Descrição: ####
+##### Na topologia em anel, cada dispositivo é conectado a dois outros dispositivos, formando um anel fechado. Os dados circulam pelo anel de dispositivo em dispositivo até atingir o destinatário pretendido. #####
+#### Vantagens: ####
+##### *Cada dispositivo tem acesso igual aos dados, sem gargalos. #####
+##### *A topologia em anel é resistente a falhas, pois, se um dispositivo falhar, os dados podem seguir a outra direção no anel. #####
+#### Desvantagens: ####
+##### *Instalação e expansão mais complexas, pois a adição ou remoção de dispositivos pode interromper o anel. #####
+##### *A falha do anel inteiro pode ocorrer se houver várias falhas em dispositivos consecutivos. #####
+#### :round_pushpin:Topologia de Barramento: ####
+#### Descrição: ####
+#####  Na topologia de barramento, todos os dispositivos são conectados a um único cabo (barramento). Os dados são transmitidos ao longo do cabo e são acessíveis a todos os dispositivos na rede. #####
+#### Vantagens: ####
+##### *Simplicidade, pois é fácil de instalar e requer menos cabo. #####
+##### *Custo reduzido, devido à simplicidade. #####
+#### Desvantagens: ####
+##### *Dificuldade em isolar problemas ou detectar falhas. #####
+##### *À medida que mais dispositivos são adicionados, o desempenho pode degradar devido ao congestionamento do cabo. #####
+##### *Não é uma escolha ideal para redes maiores ou de alta performance. #####
+
+## :pushpin:Ethernet e protocolos de camada de enlace ##
+![slide_1](https://github.com/flitzso/redes-de-computadores/assets/106411702/7b5c70bb-9528-4bd4-a1fa-71a542d62a98)
+
+#### Ethernet: ####
+##### O protocolo Ethernet é o padrão fundamental que governa a transmissão de quadros de dados em uma rede Ethernet. Ele define como os dispositivos na rede acessam o meio compartilhado e resolvem conflitos. Os quadros Ethernet contêm informações como endereços MAC de origem e destino e dados. #####
+#### MAC (Media Access Control): ####
+##### A camada MAC é a subcamada da camada de enlace de dados que controla o acesso ao meio físico da rede. Ela implementa técnicas como CSMA/CD (Carrier Sense Multiple Access with Collision Detection) para evitar colisões de dados em redes Ethernet com fio. No entanto, com a evolução da Ethernet, o CSMA/CD foi desativado em redes modernas de comutação. #####
+#### IEEE 802.3: ####
+##### O IEEE 802.3 é um padrão que especifica as características físicas e de camada de enlace da Ethernet. Ele inclui especificações para cabos, taxas de transmissão de dados, tipos de quadros e outras características técnicas. #####
+#### IEEE 802.1Q (VLAN): ####
+##### O IEEE 802.1Q é um padrão que introduz a funcionalidade de redes locais virtuais (VLANs) na Ethernet. Com VLANs, é possível segmentar uma única rede física em várias redes lógicas separadas, melhorando a segurança e o gerenciamento de tráfego. #####
+#### Ethernet Gigabit e Ethernet 10 Gigabit: ####
+##### Esses são padrões Ethernet que suportam taxas de transferência de dados mais altas, 1 Gbps (Gigabit Ethernet) e 10 Gbps (10 Gigabit Ethernet), respectivamente. Eles são usados em redes de alto desempenho e data centers. #####
+#### Ethernet sobre Fibra Óptica: ####
+##### A Ethernet também é usada em redes de fibra óptica para fornecer conectividade de alta velocidade em distâncias mais longas. Isso inclui padrões como 1000BASE-LX e 10GBASE-LR. #####
+
+## :pushpin:Conectividade de rede e configuração de dispositivos ##
+![artigo-05-12](https://github.com/flitzso/redes-de-computadores/assets/106411702/89cee814-99f0-40e2-b37c-e2c2abdeec9f)
+
+#### Cabos e Conexões: ####
+##### A escolha do tipo de cabo e das conexões corretas é fundamental para estabelecer uma conectividade física sólida em redes com fio. Cabos Ethernet de par trançado são comuns em redes locais (LANs), enquanto cabos de fibra óptica são usados para conexões de alta velocidade em distâncias maiores. #####
+#### Dispositivos de Rede: ####
+##### Roteadores, switches, hubs e access points são dispositivos-chave que facilitam a conectividade em uma rede. A configuração adequada desses dispositivos é essencial para direcionar o tráfego de forma eficiente e segura. #####
+#### Configuração de Dispositivos: ####
+##### Configurar dispositivos de rede, como roteadores e switches, envolve atribuir endereços IP, definir políticas de segurança, criar VLANs (se necessário) e estabelecer regras de encaminhamento. A interface de gerenciamento web ou a linha de comando podem ser usadas para fazer essas configurações. #####
+#### Endereçamento IP: ####
+##### Cada dispositivo em uma rede precisa ter um endereço IP único para se comunicar com outros dispositivos. A configuração de endereços IP pode ser feita manualmente (configuração estática) ou por meio de um servidor DHCP (Dynamic Host Configuration Protocol) para atribuição automática. #####
+#### Protocolos e Serviços de Rede: ####
+##### Ativar e configurar protocolos e serviços de rede é importante para definir como os dispositivos interagem. Isso inclui a ativação do DHCP, DNS (Domain Name System), NAT (Network Address Translation) e outros serviços de rede. #####
+#### Segurança de Rede: ####
+##### A segurança de rede desempenha um papel crucial. Configurar firewalls, políticas de acesso e autenticação ajuda a proteger a rede contra ameaças externas e internas. #####
+#### Resolução de Problemas: ####
+##### É importante ser capaz de diagnosticar e solucionar problemas de conectividade de rede. Isso pode incluir a verificação de cabos, a análise de logs de dispositivos de rede e o uso de ferramentas de diagnóstico de rede. #####
+#### Monitoramento e Gerenciamento: ####
+##### O monitoramento contínuo da rede é essencial para garantir o desempenho e a disponibilidade. Ferramentas de monitoramento, como SNMP (Simple Network Management Protocol), podem ser usadas para rastrear o status dos dispositivos e da rede. #####
+#### Expansão e Manutenção: ####
+##### À medida que a rede cresce, é importante planejar e implementar a expansão de dispositivos e infraestrutura. A manutenção regular, como atualizações de firmware e segurança, é crucial para manter a integridade da rede. #####
+
