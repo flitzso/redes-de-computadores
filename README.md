@@ -230,3 +230,45 @@
 #### Expansão e Manutenção: ####
 ##### À medida que a rede cresce, é importante planejar e implementar a expansão de dispositivos e infraestrutura. A manutenção regular, como atualizações de firmware e segurança, é crucial para manter a integridade da rede. #####
 
+## :pushpin:Configuração básica de roteadores e switches ##
+![rgc-configuration-guide-banner](https://github.com/flitzso/redes-de-computadores/assets/106411702/43df637e-4f1d-44cd-92da-581bc9bd52ed)
+
+### :round_pushpin:Configuração Básica de Roteadores: ###
+#### Conexão Física: ####
+##### Conecte-se ao roteador usando um cabo de console ou uma interface de gerenciamento web, dependendo do modelo e das opções de gerenciamento disponíveis. #####
+#### Login: ####
+##### Faça o login no roteador com credenciais padrão ou as fornecidas pelo fabricante. Recomenda-se alterar as senhas padrão para melhorar a segurança. #####
+#### Configuração de Interfaces: ####
+##### Configure as interfaces de rede, como as portas Ethernet e as interfaces WAN. Atribua endereços IP e máscaras de sub-rede a essas interfaces. #####
+#### Roteamento: ####
+##### Defina as rotas de encaminhamento para direcionar o tráfego entre diferentes redes. Isso pode incluir rotas estáticas ou configurações de protocolos de roteamento, como OSPF ou RIP. #####
+#### NAT (Network Address Translation): ####
+##### Configure o NAT, se necessário, para permitir que vários dispositivos compartilhem um único endereço IP público. Isso é comum em redes domésticas e pequenas empresas. #####
+#### DHCP (Dynamic Host Configuration Protocol): ####
+##### Ative o servidor DHCP para atribuir automaticamente endereços IP a dispositivos na rede local. Configure os intervalos de endereços e outras opções, se necessário. #####
+#### Firewall e Segurança: ####
+##### Configure regras de firewall e políticas de segurança para proteger a rede contra ameaças externas. #####
+#### Nome de Host e DNS: ####
+##### Defina o nome de host do roteador e configure os servidores DNS para resolução de nomes de domínio. #####
+#### Senhas e Contas de Usuário: ####
+##### Crie contas de usuário com níveis de privilégio apropriados e defina senhas fortes para proteger o acesso ao roteador. #####
+#### Salve a Configuração: ####
+##### Após concluir as configurações, salve a configuração para que elas persistam após reinicializações. #####
+
+### :round_pushpin:Configuração Básica de Switches: ###
+#### Conexão Física: ####
+##### Conecte-se ao switch usando um cabo de console ou uma interface de gerenciamento web, se disponível. #####
+#### Login: ####
+##### Faça o login no switch com as credenciais padrão ou altere as senhas padrão para melhorar a segurança. #####
+#### Configuração de VLANs: ####
+##### Configure as VLANs (Virtual LANs) para segmentar a rede em diferentes domínios de broadcast. Atribua portas a VLANs específicas. #####
+#### STP (Spanning Tree Protocol): ####
+##### Configure o STP para evitar loops de comutação na rede. O STP desativa portas redundantes, mantendo apenas uma porta ativa por VLAN. #####
+#### Administração de Portas: ####
+##### Configure características de porta, como velocidade e duplex, para corresponder às necessidades da rede. Ative portas conforme necessário. #####
+#### Segurança de Porta: ####
+##### Defina segurança de porta para evitar o acesso não autorizado. Isso pode incluir a configuração de MAC address filtering e port security. #####
+#### Senha e Contas de Usuário: ####
+##### Crie contas de usuário com privilégios adequados para gerenciar o switch. #####
+#### Salve a Configuração: ####
+##### Após fazer as configurações, salve a configuração para que elas sejam mantidas após reinicializações. #####
