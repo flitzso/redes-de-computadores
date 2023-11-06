@@ -272,3 +272,24 @@
 ##### Crie contas de usuário com privilégios adequados para gerenciar o switch. #####
 #### Salve a Configuração: ####
 ##### Após fazer as configurações, salve a configuração para que elas sejam mantidas após reinicializações. #####
+
+## :pushpin:Protocolos de roteamento: RIP, OSPF, BGP ##
+
+### :round_pushpin:RIP (Routing Information Protocol): ###
+##### *RIP é um protocolo de vetor de distância usado em redes locais ou pequenas. #####
+##### *Ele usa a métrica contagem de saltos (hops) para determinar as melhores rotas. #####
+##### *RIP é adequado para redes menores, mas pode não ser escalável para redes maiores devido às suas limitações de contagem de saltos. #####
+##### *Existem duas versões principais: RIP v1 e RIP v2. RIP v2 é mais avançado e suporta recursos adicionais, como autenticação e suporte a sub-redes VLSM. #####
+
+### :round_pushpin:OSPF (Open Shortest Path First): ###
+##### *OSPF é um protocolo de roteamento de estado de link usado em redes IP, incluindo a Internet. #####
+##### *Ele usa informações de estado de link para determinar as melhores rotas com base na topologia da rede. #####
+##### *OSPF é altamente escalável e adequado para redes de médio a grande porte. #####
+##### *Ele oferece suporte a áreas, autenticação e roteamento hierárquico. #####
+
+### :round_pushpin:BGP (Border Gateway Protocol): ###
+##### *BGP é um protocolo de roteamento usado para roteamento entre sistemas autônomos (ASes), sendo fundamental para o funcionamento da Internet. #####
+##### *Diferentemente de RIP e OSPF, que se concentram no roteamento interno, o BGP é usado para o roteamento entre redes autônomas distintas. #####
+##### *BGP permite tomar decisões de roteamento com base em várias políticas, como preferência de caminho, atributos e filtros. #####
+##### *É altamente configurável e oferece controle granular sobre o roteamento, mas é complexo e requer um planejamento cuidadoso. #####
+
