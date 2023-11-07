@@ -275,21 +275,155 @@
 
 ## :pushpin:Protocolos de roteamento: RIP, OSPF, BGP ##
 
-### :round_pushpin:RIP (Routing Information Protocol): ###
+#### :round_pushpin:RIP (Routing Information Protocol): ####
 ##### *RIP é um protocolo de vetor de distância usado em redes locais ou pequenas. #####
 ##### *Ele usa a métrica contagem de saltos (hops) para determinar as melhores rotas. #####
 ##### *RIP é adequado para redes menores, mas pode não ser escalável para redes maiores devido às suas limitações de contagem de saltos. #####
 ##### *Existem duas versões principais: RIP v1 e RIP v2. RIP v2 é mais avançado e suporta recursos adicionais, como autenticação e suporte a sub-redes VLSM. #####
 
-### :round_pushpin:OSPF (Open Shortest Path First): ###
+#### :round_pushpin:OSPF (Open Shortest Path First): ####
 ##### *OSPF é um protocolo de roteamento de estado de link usado em redes IP, incluindo a Internet. #####
 ##### *Ele usa informações de estado de link para determinar as melhores rotas com base na topologia da rede. #####
 ##### *OSPF é altamente escalável e adequado para redes de médio a grande porte. #####
 ##### *Ele oferece suporte a áreas, autenticação e roteamento hierárquico. #####
 
-### :round_pushpin:BGP (Border Gateway Protocol): ###
+#### :round_pushpin:BGP (Border Gateway Protocol): ####
 ##### *BGP é um protocolo de roteamento usado para roteamento entre sistemas autônomos (ASes), sendo fundamental para o funcionamento da Internet. #####
 ##### *Diferentemente de RIP e OSPF, que se concentram no roteamento interno, o BGP é usado para o roteamento entre redes autônomas distintas. #####
 ##### *BGP permite tomar decisões de roteamento com base em várias políticas, como preferência de caminho, atributos e filtros. #####
 ##### *É altamente configurável e oferece controle granular sobre o roteamento, mas é complexo e requer um planejamento cuidadoso. #####
+
+## :pushpin:Configuração avançada de roteadores e switches. ##
+![78031938](https://github.com/flitzso/redes-de-computadores/assets/106411702/77676e3f-636f-4f48-a3c5-5df9f32e9003)
+
+### :round_pushpin:Configuração Avançada de Roteadores: ###
+
+#### Roteamento Avançado: ####
+##### Em redes maiores, você pode precisar configurar protocolos de roteamento dinâmico, como OSPF, BGP, ou EIGRP, para otimizar o roteamento de tráfego e garantir alta disponibilidade. #####
+#### Redes Virtuais (VLANs): ####
+##### O uso de VLANs permite segmentar uma rede em sub-redes virtuais, o que melhora a segurança e a eficiência do tráfego. #####
+#### QoS (Quality of Service): ####
+##### Configurar QoS permite priorizar o tráfego de acordo com a importância, garantindo que aplicativos críticos tenham largura de banda suficiente. #####
+#### Redes VPN (Virtual Private Network): ####
+##### Configurar VPNs permite conexões seguras entre redes remotas, protegendo a comunicação entre elas. #####
+#### Configuração de Firewall: ####
+##### Implementar regras de firewall para controlar o tráfego de entrada e saída, protegendo a rede contra ameaças externas. #####
+#### Redirecionamento de Portas (Port Forwarding): ####
+##### No caso de servidores ou serviços internos, é necessário redirecionar portas para que sejam acessíveis a partir da Internet. #####
+#### Túneis IPv6 sobre IPv4: ####
+##### À medida que o IPv6 se torna mais comum, você pode precisar configurar túneis para fornecer conectividade IPv6 em redes IPv4. #####
+
+### :round_pushpin:Configuração Avançada de Switches: ###
+#### STP (Spanning Tree Protocol): ####
+##### Configurar STP ou RSTP é importante para evitar loops de rede em topologias complexas. #####
+#### Redundância de Switches: ####
+##### Usar técnicas de agregação de link (LACP) ou VRRP (Virtual Router Redundancy Protocol) para garantir alta disponibilidade e redundância. #####
+#### Trunking e Port Channels: ####
+##### Configurar trunks e port channels para acomodar o tráfego VLAN em redes maiores. #####
+#### Listas de Controle de Acesso (ACLs): ####
+##### Usar ACLs para controlar o tráfego em nível de switch com base em critérios como endereços IP, portas e protocolos. #####
+#### VXLAN (Virtual eXtensible LAN): ####
+##### Configurar VXLAN para criar redes virtuais escaláveis em ambientes de data center. #####
+#### Monitoramento de Portas (Port Mirroring): ####
+##### Monitorar o tráfego de uma porta ou VLAN específica para fins de solução de problemas e segurança. #####
+#### Autenticação 802.1X: ####
+##### Implementar autenticação de portas para melhorar a segurança e controlar o acesso a dispositivos na rede. #####
+
+## :pushpin:VLANs (Virtual LANs) e segmentação de rede. ##
+![vlans_01_thumb](https://github.com/flitzso/redes-de-computadores/assets/106411702/9a22caeb-5d7c-42b5-af3f-28ed64b97314)
+
+### :round_pushpin:O que são VLANs (Virtual LANs): ###
+##### *As VLANs são redes virtuais que permitem separar dispositivos em grupos lógicos, independentemente da localização física. #####
+##### *Com as VLANs, você pode criar múltiplas redes lógicas em uma única rede física, isolando o tráfego entre elas. #####
+##### *Isso é útil para melhorar a segurança, gerenciar o tráfego e organizar dispositivos em redes separadas com base em critérios como departamentos, funções ou requisitos de segurança. #####
+
+### :round_pushpin:Benefícios da Segmentação de Rede com VLANs: ###
+#### Segurança: ####
+##### A segmentação permite isolar grupos de dispositivos, reduzindo a superfície de ataque e o risco de acesso não autorizado. #####
+#### Gerenciamento de Tráfego: ####
+##### VLANs ajudam a gerenciar e otimizar o tráfego de rede, permitindo a priorização de tráfego importante. #####
+#### Organização e Flexibilidade: ####
+##### Você pode organizar dispositivos com base em critérios específicos e reconfigurar facilmente a rede conforme necessário. #####
+#### Escalabilidade: ####
+##### VLANs facilitam a adição de novos dispositivos sem a necessidade de mudanças físicas na rede. #####
+
+
+### :round_pushpin:Configuração de VLANs: ###
+##### *A configuração de VLANs envolve configurar switches para atribuir portas a VLANs específicas. Isso é feito por meio da criação de VLANs virtuais e da associação de portas a essas VLANs. #####
+##### *Os switches precisam suportar o protocolo 802.1Q (VLAN tagging) para que as VLANs funcionem corretamente. #####
+##### *Roteadores também podem ser configurados para rotear o tráfego entre VLANs, permitindo a comunicação entre elas quando necessário. #####
+
+### :round_pushpin:Exemplos de Aplicações de VLANs: ###
+##### *Em um ambiente corporativo, você pode criar VLANs separadas para departamentos, como uma VLAN para o departamento de TI, outra para o departamento de contabilidade e assim por diante. #####
+##### *Em data centers, as VLANs são usadas para isolar o tráfego de diferentes clientes ou aplicativos. #####
+##### *Em redes de convidados, como hotéis ou escritórios, você pode criar uma VLAN separada para os dispositivos de visitantes para manter a rede principal segura. #####
+
+### :round_pushpin:Segurança em VLANs: ###
+##### *Para reforçar a segurança, as ACLs (Listas de Controle de Acesso) podem ser usadas para controlar o tráfego entre VLANs. #####
+##### *Redes de convidados e redes de produção devem ser estritamente separadas para minimizar riscos de segurança. #####
+
+
+## :pushpin:DHCP (Dynamic Host Configuration Protocol). ##
+![DHCP](https://github.com/flitzso/redes-de-computadores/assets/106411702/d7763d89-7500-4266-adcc-6e5e7deb7d2c)
+
+### :round_pushpin:Atribuição Dinâmica de Configurações: ###
+##### *O DHCP permite que dispositivos em uma rede obtenham automaticamente informações de configuração, como endereço IP, máscara de sub-rede, gateway padrão, servidores DNS e outros parâmetros de rede. #####
+##### *Isso elimina a necessidade de configurar manualmente cada dispositivo na rede, tornando a administração mais eficiente. #####
+
+### :round_pushpin:Componentes do DHCP: ###
+#### Servidor DHCP: ####
+##### É um servidor que mantém um pool de endereços IP disponíveis e atribui esses endereços a dispositivos solicitantes. O servidor DHCP também fornece outras informações de configuração. #####
+#### Cliente DHCP: ####
+##### É um dispositivo que solicita configurações de rede ao servidor DHCP quando se conecta à rede. Os clientes DHCP podem ser computadores, telefones, impressoras, etc. #####
+#### Âmbito (Scope): ####
+##### É um intervalo de endereços IP que o servidor DHCP pode atribuir a dispositivos. Um servidor DHCP pode ter vários escopos para diferentes redes ou sub-redes. #####
+
+### :round_pushpin:Processo de Atribuição: ###
+##### *Quando um dispositivo se conecta à rede, ele envia uma solicitação DHCP ao servidor DHCP. #####
+##### *O servidor DHCP responde com um pacote DHCP que contém o endereço IP e outras configurações de rede, que o dispositivo utilizará para se configurar automaticamente. #####
+##### *O servidor DHCP mantém um registro do endereço IP atribuído, para evitar atribuir o mesmo endereço a mais de um dispositivo. #####
+
+
+### :round_pushpin:Benefícios do DHCP: ###
+#### Simplifica a Administração: ####
+##### Elimina a necessidade de configurar manualmente cada dispositivo na rede. #####
+#### Alocação Eficiente de Recursos: ####
+##### Permite reutilizar endereços IP à medida que os dispositivos entram e saem da rede. #####
+#### Facilita a Mobilidade: ####
+##### Dispositivos podem obter configurações de rede automaticamente, mesmo quando se movem entre redes. #####
+#### Evita Conflitos de IP: ####
+##### Reduz o risco de conflitos de endereços IP, que podem ocorrer em redes com configurações manuais. #####
+
+### :round_pushpin:Implementações do DHCP: ###
+##### *O DHCP é comumente usado em redes locais (LANs), incluindo redes domésticas, empresas e data centers. #####
+##### *Os roteadores e switches muitas vezes têm servidores DHCP embutidos, mas também é possível configurar servidores DHCP dedicados em redes maiores. #####
+
+## :pushpin:DNS (Domain Name System) ##
+![DNS-Explained](https://github.com/flitzso/redes-de-computadores/assets/106411702/eacd22e9-2c90-4839-8fa8-d1867fdc716c)
+
+### :round_pushpin:Tradução de Nomes de Domínio em Endereços IP: ###
+##### *O DNS traduz nomes de domínio (como www.exemplo.com) em endereços IP (como 192.0.2.1). Isso permite que os computadores localizem servidores e serviços na Internet usando nomes legíveis por humanos. #####
+
+### :round_pushpin:Estrutura Hierárquica: ###
+##### O DNS opera com uma estrutura hierárquica, com raiz, domínios de topo (TLDs) e domínios de segundo nível (SLDs). Por exemplo, "exemplo.com" é um domínio de segundo nível no domínio de topo "com". #####
+
+### :round_pushpin:Servidores DNS: ###
+##### *A infraestrutura do DNS é composta por servidores DNS em todo o mundo. Os servidores DNS armazenam informações de mapeamento entre nomes de domínio e endereços IP. #####
+##### *Existem servidores DNS raiz, servidores de domínio de topo e servidores DNS autorizados para domínios específicos. #####
+
+### :round_pushpin:Resolução DNS: ###
+##### *Quando um usuário digita um nome de domínio em um navegador ou em outro aplicativo, o dispositivo envia uma consulta DNS para um servidor DNS. O servidor DNS realiza a resolução do nome de domínio, retornando o endereço IP correspondente. #####
+
+### :round_pushpin:Cache DNS: ###
+##### *Para otimizar o desempenho e reduzir a carga nos servidores DNS, os resultados das consultas DNS podem ser armazenados em cache em servidores DNS e dispositivos clientes. #####
+
+### :round_pushpin:Registro DNS: ###
+##### *Os registros DNS são tipos específicos de informações associadas a nomes de domínio. Exemplos de registros DNS incluem A (para mapeamento de nomes de domínio para endereços IPv4), AAAA (para mapeamento de nomes de domínio para endereços IPv6), MX (para mapeamento de nomes de domínio para servidores de e-mail) e CNAME (para criação de alias de nomes de domínio). #####
+
+### :round_pushpin:Segurança DNS: ###
+##### *O DNS pode ser vulnerável a ataques, como envenenamento de cache e sequestro de DNS. Para mitigar essas ameaças, foram desenvolvidos protocolos e técnicas de segurança, como DNSSEC (DNS Security Extensions). #####
+
+### :round_pushpin:Uso do DNS em Redes Locais: ###
+##### *Além de seu papel na Internet, o DNS também é usado em redes locais para mapear nomes de host em endereços IP dentro de uma rede. #####
+
 
