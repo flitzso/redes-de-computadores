@@ -1,4 +1,4 @@
-# :globe_with_meridians: Redes-De-Computadores #
+# :globe_with_meridians:Redes-De-Computadores #
 
 #### Simulador de Rede Cisco Packet Tracer ####
 #### https://www.netacad.com/courses/packet-tracer ####
