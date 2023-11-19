@@ -423,5 +423,3 @@
 ### :round_pushpin:Uso do DNS em Redes Locais: ###
 ##### *Além de seu papel na Internet, o DNS também é usado em redes locais para mapear nomes de host em endereços IP dentro de uma rede. #####
 
-
-
