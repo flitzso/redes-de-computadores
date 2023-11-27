@@ -422,3 +422,40 @@
 
 ### :round_pushpin:Uso do DNS em Redes Locais: ###
 ##### *Além de seu papel na Internet, o DNS também é usado em redes locais para mapear nomes de host em endereços IP dentro de uma rede. #####
+
+## 📌Firewall: ##
+![network-firewall-icon-illustration-vector-on-white-background](https://github.com/flitzso/redes-de-computadores/assets/106411702/26b82c6b-0092-4a79-a95b-4b623d3503ee)
+
+Um firewall é um dispositivo ou software que atua como uma barreira entre uma rede privada e a Internet ou outras redes externas. Ele monitora e controla o tráfego de dados com   
+ base em regras de segurança predefinidas. Existem dois tipos principais de firewalls: 
+
+Firewalls de Hardware:
+
+Dispositivos físicos dedicados para proteger uma rede.
+Podem ser implementados como appliances ou roteadores com recursos de firewall.
+Firewalls de Software:
+
+Programas de software que são instalados em servidores ou dispositivos individuais.
+Podem ser integrados ao sistema operacional ou fornecidos como aplicativos independentes.
+
+## 📌Funcionamento do Firewall: ##
+Filtragem de Pacotes: Examina cada pacote de dados e decide permitir ou bloquear com base em regras predefinidas.
+Stateful Inspection: Avalia o estado da conexão para permitir ou bloquear o tráfego com base no contexto.
+Proxy e Filtragem de Conteúdo: Controla o acesso a recursos da web e filtra conteúdo com base em políticas de segurança.
+
+## 📌Segurança de Rede: ##
+A segurança de rede envolve medidas adicionais para proteger dados, sistemas e recursos contra ameaças cibernéticas. Além do firewall, outras práticas comuns incluem:
+
+Criptografia: Protege dados durante a transmissão, tornando difícil para terceiros não autorizados interpretar as informações.
+
+Antivírus e Antimalware: Utiliza software para detectar, prevenir e remover software malicioso.
+
+Atualizações e Patches: Mantém sistemas operacionais, aplicativos e dispositivos atualizados com as últimas correções de segurança.
+
+Controle de Acesso: Limita o acesso a sistemas e dados apenas a usuários autorizados.
+
+Monitoramento de Rede: Monitora o tráfego de rede em busca de atividades suspeitas e anomalias.
+
+Políticas de Segurança: Define regras e diretrizes para garantir a conformidade e a segurança da informação.
+
+Backup Regular: Mantém cópias de dados importantes para recuperação em caso de perda ou ataque.
