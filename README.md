@@ -459,3 +459,38 @@ Monitoramento de Rede: Monitora o tráfego de rede em busca de atividades suspei
 Políticas de Segurança: Define regras e diretrizes para garantir a conformidade e a segurança da informação.
 
 Backup Regular: Mantém cópias de dados importantes para recuperação em caso de perda ou ataque.
+
+![11506937-dados-protegidos-com-conceito-de-servico-vpn-banner-de-3d-com-espaco-de-copia-vetor](https://github.com/flitzso/redes-de-computadores/assets/106411702/be775716-21b7-4f03-b3a2-d4317e90724d)
+
+### 📌VPN (Virtual Private Network): ###
+Objetivo:
+
+Estabelecer uma conexão segura entre um dispositivo ou uma rede e outro ponto na Internet ou em uma rede privada.
+Funcionamento:
+
+Utiliza técnicas de criptografia para proteger os dados transmitidos entre os pontos conectados.
+Pode ser implementada de diversas maneiras, incluindo VPNs de acesso remoto, VPNs de site a site e VPNs de ponto a ponto.
+Tipos de VPNs:
+
+VPN de Acesso Remoto: Permite que usuários individuais se conectem a uma rede privada de forma segura a partir de locais remotos.
+VPN de Site a Site: Conecta redes inteiras entre locais geograficamente distintos.
+VPN de Ponto a Ponto: Estabelece uma conexão segura entre dois dispositivos específicos.
+Túneis VPN:
+Definição:
+
+Em uma VPN, o termo "túnel" refere-se à passagem segura e criptografada através da qual os dados são transmitidos entre os pontos conectados.
+Criptografia e Autenticação:
+
+Os túneis VPN utilizam protocolos de segurança para criptografar e autenticar os dados transmitidos, garantindo que apenas as partes autorizadas possam acessar as informações.
+Protocolos Comuns:
+
+IPsec (Internet Protocol Security): Um conjunto de protocolos para garantir a segurança das comunicações na Internet.
+SSL/TLS (Secure Sockets Layer/Transport Layer Security): Usado para conexões VPN baseadas na web.
+L2TP/IPsec (Layer 2 Tunneling Protocol/IP Security): Combina o L2TP para criar o túnel e o IPsec para segurança.
+Finalidade:
+
+Os túneis VPN são cruciais para criar uma "via segura" na qual os dados podem ser transmitidos de forma protegida, mesmo através de redes não confiáveis, como a Internet pública.
+VPN e Privacidade:
+
+Além de oferecer segurança, as VPNs também ajudam a preservar a privacidade dos dados, mascarando o endereço IP real dos usuários.
+
