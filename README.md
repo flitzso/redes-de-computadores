@@ -423,8 +423,8 @@
 ### :round_pushpin:Uso do DNS em Redes Locais: ###
 ##### *Além de seu papel na Internet, o DNS também é usado em redes locais para mapear nomes de host em endereços IP dentro de uma rede. #####
 
-## 📌Firewall: ##
 ![network-firewall-icon-illustration-vector-on-white-background](https://github.com/flitzso/redes-de-computadores/assets/106411702/26b82c6b-0092-4a79-a95b-4b623d3503ee)
+## 📌Firewall: ##
 
 Um firewall é um dispositivo ou software que atua como uma barreira entre uma rede privada e a Internet ou outras redes externas. Ele monitora e controla o tráfego de dados com   
  base em regras de segurança predefinidas. Existem dois tipos principais de firewalls: 
