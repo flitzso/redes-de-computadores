@@ -496,7 +496,9 @@ Além de oferecer segurança, as VPNs também ajudam a preservar a privacidade d
 
 ![banner-redes-conectividade](https://github.com/flitzso/redes-de-computadores/assets/106411702/b363f75e-0ec5-46ac-bc33-e892a8d2dd87)
 
-### 📌FTP (File Transfer Protocol): ###
+### 📌Serviços de rede: FTP, HTTP, SMTP, POP3, IMAP. ###
+
+#### FTP (File Transfer Protocol): ####
 Finalidade:
 
 Transferência de arquivos entre computadores em uma rede.
