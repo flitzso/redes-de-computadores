@@ -494,3 +494,59 @@ VPN e Privacidade:
 
 Além de oferecer segurança, as VPNs também ajudam a preservar a privacidade dos dados, mascarando o endereço IP real dos usuários.
 
+![banner-redes-conectividade](https://github.com/flitzso/redes-de-computadores/assets/106411702/b363f75e-0ec5-46ac-bc33-e892a8d2dd87)
+
+### 📌FTP (File Transfer Protocol): ###
+Finalidade:
+
+Transferência de arquivos entre computadores em uma rede.
+Funcionamento:
+
+Usa duas conexões separadas: uma para comandos e outra para transferência de dados.
+Pode operar no modo ativo ou passivo, dependendo da configuração.
+Segurança:
+
+Geralmente, as comunicações FTP não são criptografadas, o que pode representar um risco de segurança. No entanto, o FTP seguro (FTPS) e o SFTP (SSH File Transfer Protocol) são variantes mais seguras.
+2. HTTP (Hypertext Transfer Protocol):
+Finalidade:
+
+Transferência de dados na World Wide Web.
+Funcionamento:
+
+Utilizado para acessar recursos como páginas da web, imagens e outros conteúdos online.
+Opera no modelo cliente-servidor, onde o navegador atua como cliente e solicita recursos do servidor web.
+Segurança:
+
+Comunicações HTTP padrão não são criptografadas. O HTTPS (HTTP Secure) é uma versão segura do HTTP que utiliza criptografia SSL/TLS para proteger os dados.
+3. SMTP (Simple Mail Transfer Protocol):
+Finalidade:
+
+Envio de e-mails.
+Funcionamento:
+
+Responsável pela transferência de e-mails do cliente de e-mail do remetente para o servidor de e-mails do destinatário.
+Segurança:
+
+Geralmente, as comunicações SMTP não são criptografadas. No entanto, o STARTTLS é um protocolo que pode ser usado para adicionar criptografia às comunicações SMTP.
+4. POP3 (Post Office Protocol 3):
+Finalidade:
+
+Recuperação de e-mails do servidor para o cliente.
+Funcionamento:
+
+Permite que o cliente de e-mail faça o download de e-mails do servidor para o dispositivo local.
+Por padrão, geralmente remove os e-mails do servidor após o download.
+Segurança:
+
+Comunicações POP3 padrão não são criptografadas. O POP3S é uma versão segura que utiliza SSL/TLS para proteger a comunicação.
+5. IMAP (Internet Message Access Protocol):
+Finalidade:
+
+Permite que os clientes de e-mail visualizem e organizem e-mails diretamente no servidor.
+Funcionamento:
+
+Mantém os e-mails no servidor, permitindo que o cliente sincronize e visualize o conteúdo de várias dispositivos.
+Segurança:
+
+IMAPS é a versão segura do IMAP, que utiliza SSL/TLS para criptografar a comunicação.
+
