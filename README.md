@@ -552,3 +552,125 @@ Segurança:
 
 IMAPS é a versão segura do IMAP, que utiliza SSL/TLS para criptografar a comunicação.
 
+![evolution-of-the-https-lock-icon-infographic](https://github.com/flitzso/redes-de-computadores/assets/106411702/c6395d14-836d-45d3-adde-e4a38a0de5ac)
+
+### 📌Políticas de segurança e práticas recomendadas. ###
+
+Avaliação de Riscos:
+
+Realize uma avaliação de riscos regularmente para identificar e entender as ameaças potenciais.
+Classifique os ativos de acordo com sua importância e sensibilidade.
+Política de Senhas:
+
+Exija senhas fortes e atualizações regulares.
+Implemente a autenticação de dois fatores sempre que possível.
+Controle de Acesso:
+
+Adote o princípio do menor privilégio, dando aos usuários apenas as permissões necessárias para realizar suas funções.
+Monitore e revogue rapidamente os acessos de ex-funcionários.
+Atualizações e Patches:
+
+Mantenha sistemas operacionais, aplicativos e software de segurança atualizados.
+Estabeleça um processo para avaliar e aplicar patches de segurança de forma regular.
+Conscientização e Treinamento:
+
+Conduza treinamentos regulares de conscientização sobre segurança para os funcionários.
+Eduque os usuários sobre práticas seguras, como evitar phishing e proteger informações confidenciais.
+Monitoramento e Detecção de Incidentes:
+
+Implemente sistemas de monitoramento para detectar atividades suspeitas.
+Desenvolva procedimentos claros para lidar com incidentes de segurança.
+Backup e Recuperação:
+
+Realize backups regularmente e teste a recuperação de dados.
+Mantenha cópias de backup em locais seguros e separados dos sistemas principais.
+Política de Dispositivos Móveis:
+
+Implemente políticas para dispositivos móveis, incluindo o uso de senhas e a criptografia de dados.
+Considere a implementação de soluções de gerenciamento de dispositivos móveis (MDM).
+Criptografia:
+
+Utilize a criptografia para proteger dados em trânsito e em repouso.
+Implemente protocolos seguros, como HTTPS, para comunicações online.
+Auditorias e Conformidade:
+
+Realize auditorias de segurança regularmente.
+Garanta conformidade com regulamentações e padrões relevantes.
+Gestão de Incidentes:
+
+Desenvolva um plano de resposta a incidentes.
+Estabeleça uma equipe de resposta a incidentes e teste o plano regularmente.
+Fornecedores e Parceiros:
+
+Avalie a segurança dos fornecedores e parceiros.
+Inclua cláusulas de segurança nos contratos.
+Privacidade de Dados:
+
+Esteja em conformidade com regulamentações de privacidade de dados, como o GDPR.
+Informe claramente aos usuários sobre a coleta e uso de seus dados.
+Segurança Física:
+
+Proteja fisicamente os equipamentos e instalações críticos.
+Controle o acesso físico a áreas sensíveis.
+
+![7-considerations-1370x475](https://github.com/flitzso/redes-de-computadores/assets/106411702/f8c452e4-cc01-4013-8b08-9cfc8207f665)
+
+### 📌Monitoramento de rede e solução de problemas. ###
+
+Monitoramento de Rede:
+Ferramentas de Monitoramento:
+
+Utilize ferramentas de monitoramento de rede, como Nagios, Zabbix, PRTG, Wireshark, entre outras.
+Implemente sondas de monitoramento distribuídas em locais-chave da rede.
+Métricas de Desempenho:
+
+Monitore métricas como largura de banda, latência, perda de pacotes e utilização de recursos.
+Estabeleça thresholds para alertar quando métricas críticas ultrapassarem limites definidos.
+Monitoramento em Tempo Real:
+
+Mantenha um monitoramento contínuo em tempo real para identificar problemas imediatamente.
+Utilize dashboards para visualizar rapidamente o estado da rede.
+Monitoramento de Dispositivos:
+
+Monitore dispositivos de rede, como roteadores, switches, firewalls e servidores.
+Acompanhe a disponibilidade, carga de CPU, memória e status das interfaces.
+Monitoramento de Aplicações:
+
+Além de monitorar a infraestrutura, monitore o desempenho de aplicações críticas.
+Estabeleça alertas para problemas específicos de aplicativos.
+Registros e Logs:
+
+Implemente a coleta e análise de registros para identificar padrões e anomalias.
+Armazene registros de forma segura para referência futura.
+Solução de Problemas:
+Mapa de Rede:
+
+Mantenha um mapa atualizado da topologia de rede para facilitar a identificação rápida de pontos problemáticos.
+Isolamento de Problemas:
+
+Divida a rede em segmentos para isolar e identificar rapidamente a origem dos problemas.
+Utilize comandos de ping, traceroute e outras ferramentas para testar a conectividade.
+Análise de Pacotes:
+
+Em casos complexos, use ferramentas de análise de pacotes, como o Wireshark, para examinar o tráfego em detalhes.
+Identifique e corrija problemas de rede com base na análise de pacotes.
+Alertas e Notificações:
+
+Configure alertas proativos para serem notificados sobre problemas antes que afetem os usuários.
+Crie procedimentos para responder rapidamente a alertas críticos.
+Histórico de Desempenho:
+
+Mantenha registros históricos de desempenho para identificar tendências e antecipar problemas futuros.
+Analise os dados de desempenho ao longo do tempo para identificar padrões.
+Colaboração e Documentação:
+
+Estabeleça processos claros de documentação para facilitar a colaboração entre equipes.
+Documente procedimentos de solução de problemas para referência rápida.
+Treinamento da Equipe:
+
+Certifique-se de que a equipe de suporte esteja treinada para diagnosticar e solucionar problemas de rede.
+Realize exercícios de simulação para praticar a resposta a cenários de falhas.
+Análise Pós-Incidente:
+
+Após a resolução de um problema, conduza uma análise pós-incidente para entender as causas raiz e evitar recorrências.
+
