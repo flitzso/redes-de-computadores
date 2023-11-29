@@ -674,3 +674,242 @@ Análise Pós-Incidente:
 
 Após a resolução de um problema, conduza uma análise pós-incidente para entender as causas raiz e evitar recorrências.
 
+![download](https://github.com/flitzso/redes-de-computadores/assets/106411702/de45aeaf-320e-46d4-a9b0-486fcbb0ba4d)
+
+### 📌Redes sem fio (Wi-Fi) e protocolos 802.11. ###
+
+As redes sem fio, também conhecidas como Wi-Fi, tornaram-se ubíquas em ambientes domésticos, empresariais e públicos. O padrão mais comum para redes sem fio é o IEEE 802.11, que tem evoluído ao longo do tempo com diferentes emendas e padrões. Aqui estão alguns aspectos fundamentais sobre redes sem fio e os protocolos 802.11:
+
+Protocolos 802.11:
+802.11b:
+
+Lançado em 1999.
+Opera na faixa de frequência de 2,4 GHz.
+Taxa de transferência máxima de 11 Mbps.
+Vulnerável a interferências de outros dispositivos na mesma faixa de frequência.
+802.11a:
+
+Lançado em 1999.
+Opera na faixa de frequência de 5 GHz.
+Taxa de transferência máxima de 54 Mbps.
+Menos suscetível a interferências, mas alcance efetivo menor que o 802.11b.
+802.11g:
+
+Lançado em 2003.
+Opera na faixa de frequência de 2,4 GHz.
+Taxa de transferência máxima de 54 Mbps.
+Compatível com 802.11b, melhor alcance e desempenho.
+802.11n:
+
+Lançado em 2009.
+Opera em ambas as faixas de frequência (2,4 GHz e 5 GHz).
+Taxa de transferência máxima de várias centenas de Mbps.
+Introduz MIMO (Multiple Input Multiple Output) para melhorar o desempenho e a cobertura.
+802.11ac:
+
+Lançado em 2013.
+Opera exclusivamente na faixa de 5 GHz.
+Taxa de transferência máxima de vários Gbps.
+Utiliza MIMO e modulação mais avançada.
+802.11ax (Wi-Fi 6):
+
+Lançado em 2019.
+Opera em ambas as faixas de frequência.
+Melhora a eficiência em ambientes com muitos dispositivos conectados.
+Oferece maior largura de banda e menor latência.
+Conceitos Importantes:
+SSID (Service Set Identifier):
+
+Identificador exclusivo para nomear uma rede Wi-Fi.
+Os dispositivos se conectam a uma rede Wi-Fi usando seu SSID.
+Banda (Frequency Band):
+
+As redes Wi-Fi podem operar em faixas de frequência de 2,4 GHz e/ou 5 GHz.
+A faixa de 5 GHz oferece mais canais e menos interferências.
+Canais:
+
+As faixas de frequência são divididas em canais para evitar interferências.
+Canais sobrepostos podem causar interferência mútua.
+Segurança:
+
+Criptografia WEP, WPA, e WPA2/WPA3 são usadas para proteger as comunicações.
+Recomenda-se o uso de WPA3 para maior segurança.
+Modo de Operação:
+
+Modos comuns incluem "Infrastructure" (conectando a um ponto de acesso) e "Ad-Hoc" (comunicação direta entre dispositivos).
+Handover (Roaming):
+
+Capacidade de um dispositivo se mover entre diferentes pontos de acesso sem perder a conexão.
+QoS (Quality of Service):
+
+Define prioridades para diferentes tipos de tráfego, garantindo uma experiência de usuário consistente.
+Segurança:
+
+Além de criptografia, medidas como filtragem de endereços MAC e desativação de SSID broadcasting melhoram a segurança.
+Mesh Networking:
+
+Em redes mais recentes, o conceito de malha (mesh) permite uma cobertura mais uniforme usando vários pontos de acesso.
+
+![shutterstock_736023931-blacks-1800x900](https://github.com/flitzso/redes-de-computadores/assets/106411702/52ca592c-b501-47f9-a412-1f0f9a8f202c)
+
+### 📌Redes definidas por software (SDN). ###
+
+Componentes Principais:
+Controlador SDN:
+
+O controlador é o cérebro da SDN. Ele é responsável por tomar decisões sobre o encaminhamento de dados com base em políticas definidas pelo administrador da rede.
+Exemplos de controladores SDN incluem o OpenDaylight e o ONOS.
+Plano de Controle (Control Plane):
+
+O plano de controle é a parte da rede que lida com a tomada de decisões sobre como os dados devem ser encaminhados.
+No contexto da SDN, o plano de controle é centralizado no controlador.
+Plano de Dados (Data Plane):
+
+O plano de dados é a parte da rede que lida com o encaminhamento real dos pacotes de dados.
+No modelo SDN, o plano de dados é distribuído pelos dispositivos de rede (switches e roteadores) que seguem as instruções do controlador.
+API (Interface de Programação de Aplicações):
+
+As APIs permitem a comunicação entre aplicativos de rede e o controlador SDN.
+Isso facilita a programabilidade da rede, permitindo a criação de aplicativos personalizados para atender a necessidades específicas.
+Princípios Básicos:
+Desacoplamento:
+
+A SDN desacopla o plano de controle do plano de dados, permitindo uma gestão centralizada e programação mais flexível.
+Programabilidade:
+
+A capacidade de programar a rede usando APIs facilita a adaptação da rede às necessidades específicas de aplicativos e serviços.
+Virtualização:
+
+A SDN permite a criação de redes virtuais sobre a infraestrutura física, permitindo compartilhamento eficiente de recursos e isolamento de tráfego.
+Automatização:
+
+A automação é simplificada com a SDN, pois as políticas de controle podem ser ajustadas dinamicamente em resposta às mudanças nas condições da rede.
+Orquestração:
+
+A orquestração facilita a coordenação e a automação de serviços em toda a infraestrutura de rede, otimizando recursos conforme necessário.
+Benefícios:
+Flexibilidade e Agilidade:
+
+A capacidade de programar a rede permite adaptação rápida a novas demandas e alterações de tráfego.
+Eficiência de Recursos:
+
+O desacoplamento e a virtualização permitem o uso mais eficiente dos recursos de rede.
+Automatização e Simplificação:
+
+Processos automatizados simplificam a gestão e reduzem a probabilidade de erros humanos.
+Melhoria na Segurança:
+
+A gestão centralizada e a capacidade de implementar políticas de segurança consistentes contribuem para a melhoria da segurança da rede.
+Integração com Serviços em Nuvem:
+
+A SDN facilita a integração de serviços em nuvem e a implementação de políticas de rede que abrangem ambientes locais e em nuvem.
+
+![0_exRUCpszdf__pPf7](https://github.com/flitzso/redes-de-computadores/assets/106411702/3a1457d4-f786-4aca-a1b1-682143d8a547)
+
+### 📌Virtualização de redes e funções de rede virtual (NFV). ###
+
+Virtualização de Redes:
+Definição:
+
+A virtualização de redes envolve a criação de instâncias virtuais de recursos de rede, como switches, roteadores, firewalls e load balancers, em vez de depender de hardware físico.
+Benefícios:
+
+Isolamento: As redes virtuais podem ser isoladas umas das outras, proporcionando maior segurança e controle.
+Eficiência de Recursos: Permite o compartilhamento eficiente de recursos físicos.
+Flexibilidade: Facilita a adaptação rápida e dinâmica da infraestrutura de rede às necessidades específicas.
+Testes e Desenvolvimento: Ambientes virtuais são ideais para testes e desenvolvimento, pois podem ser replicados e modificados facilmente.
+Tecnologias Associadas:
+
+Máquinas Virtuais (VMs): A virtualização de servidores permite a execução de várias VMs em um único servidor físico.
+Redes Virtuais (VLANs): Segmentação lógica de uma rede física em redes virtuais independentes.
+Redes Definidas por Software (SDN): Desacopla o plano de controle do plano de dados, facilitando a gestão centralizada e a programação da rede.
+Funções de Rede Virtual (NFV):
+Definição:
+
+O NFV (Network Functions Virtualization) é uma abordagem que virtualiza funções de rede tradicionalmente realizadas por hardware especializado, transformando-as em software executado em servidores padrão.
+Objetivos:
+
+Desagregação de Hardware: Substituir dispositivos de hardware dedicados por funções de rede executadas em servidores virtualizados.
+Flexibilidade e Escalabilidade: Permitir o dimensionamento dinâmico das funções de rede conforme necessário.
+Redução de Custo: Eliminar a necessidade de hardware dedicado e simplificar a gestão de recursos.
+Exemplos de Funções de Rede Virtual:
+
+Firewalls Virtuais: Substituem firewalls físicos por soluções baseadas em software.
+Roteadores Virtuais: Executam funções de roteamento em servidores virtualizados.
+Switches Virtuais: Proporcionam conectividade de rede em ambientes virtuais.
+Balanceadores de Carga Virtuais: Distribuem o tráfego entre servidores virtuais.
+Optimização de Rede Virtuais: Incluem funções como compressão e otimização de WAN.
+Ciclo de Vida NFV:
+
+Orquestração: Coordena a implementação e a gestão de recursos virtuais.
+Gerenciamento de Ciclo de Vida (LCM): Monitora e mantém as instâncias de funções de rede virtual ao longo do tempo.
+Automatização: Permite a automação de processos, incluindo implantação, configuração e otimização.
+Padrões e Organizações:
+
+Organizações como a ETSI (European Telecommunications Standards Institute) desempenham um papel importante na padronização e desenvolvimento de arquiteturas NFV.
+Integração de Virtualização de Redes e NFV:
+Sinergia:
+
+A virtualização de redes e o NFV frequentemente trabalham em conjunto para criar ambientes de rede altamente flexíveis e eficientes.
+Abordagem Holística:
+
+A combinação de SDN, virtualização de redes e NFV oferece uma abordagem holística para transformar as redes, proporcionando flexibilidade, eficiência e escalabilidade.
+
+![Balanceador de Carga_thumb 1](https://github.com/flitzso/redes-de-computadores/assets/106411702/eecf6438-9b9c-4567-a9f3-7b2cc14ec187)
+
+### 📌Alta disponibilidade e balanceamento de carga. ###
+
+Alta Disponibilidade (HA):
+Definição:
+
+Alta disponibilidade refere-se à capacidade de um sistema ou serviço permanecer operacional e acessível mesmo em face de falhas de componentes individuais.
+Objetivos:
+
+Redução de Tempo de Inatividade: Minimizar o impacto de falhas, garantindo que os serviços estejam sempre disponíveis.
+Redundância: Introduzir redundância em componentes críticos para evitar pontos únicos de falha.
+Práticas Comuns para Alta Disponibilidade:
+
+Balanceamento de Carga: Distribui o tráfego entre vários servidores para evitar sobrecarga em qualquer um deles.
+Replicação de Servidores: Ter réplicas de servidores para garantir que, se um falhar, outros possam assumir.
+Clusterização: Agrupamento de servidores para trabalhar como uma única unidade coesa.
+Monitoramento Contínuo: Ferramentas para monitorar constantemente a integridade dos sistemas e serviços.
+Recuperação de Desastres (DR):
+
+Embora relacionado à alta disponibilidade, a recuperação de desastres envolve a restauração de serviços após eventos catastróficos, como falhas de data center ou desastres naturais.
+Balanceamento de Carga:
+Definição:
+
+O balanceamento de carga distribui o tráfego entre vários servidores ou recursos para otimizar o uso dos recursos, evitar sobrecargas e melhorar o desempenho.
+Objetivos:
+
+Distribuição Equitativa: Garantir que todos os servidores recebam uma carga de tráfego relativamente equitativa.
+Escalabilidade: Facilitar a adição ou remoção de servidores conforme necessário.
+Melhoria do Desempenho: Distribuir as solicitações dos usuários de maneira eficiente para evitar gargalos.
+Métodos de Balanceamento de Carga:
+
+Round Robin: Distribui as solicitações em uma ordem circular, atribuindo cada solicitação ao próximo servidor na lista.
+Least Connections: Encaminha solicitações para o servidor com o menor número de conexões ativas.
+IP Hash: Baseado no endereço IP do cliente, direciona sempre o tráfego do mesmo cliente para o mesmo servidor.
+Algoritmos Adaptativos: Algoritmos que ajustam dinamicamente a distribuição de carga com base no desempenho do servidor.
+Balanceamento de Carga em Nível de Aplicação:
+
+Além do nível de transporte (TCP/IP), o balanceamento de carga em nível de aplicação opera no nível da camada de aplicação (por exemplo, HTTP), proporcionando maior inteligência na distribuição de solicitações.
+Persistência de Sessão:
+
+Em alguns casos, é necessário manter a persistência de sessão, garantindo que todas as solicitações de um cliente específico sejam encaminhadas para o mesmo servidor.
+Global Server Load Balancing (GSLB):
+
+Estende o conceito de balanceamento de carga para ambientes distribuídos globalmente, direcionando o tráfego para o local mais apropriado com base em fatores como latência, geolocalização ou capacidade.
+Integração de Alta Disponibilidade e Balanceamento de Carga:
+Complementaridade:
+
+O balanceamento de carga é frequentemente usado como parte de estratégias mais amplas de alta disponibilidade, ajudando a distribuir o tráfego de maneira equitativa entre servidores redundantes.
+Uso de Redundância:
+
+A combinação de alta disponibilidade e balanceamento de carga geralmente envolve a implementação de servidores redundantes em clusters, onde o balanceamento de carga garante uma distribuição uniforme do tráfego.
+Monitoramento Constante:
+
+Sistemas de monitoramento contínuo são essenciais para identificar falhas em servidores e redirecionar o tráfego para instâncias saudáveis.
+Dimensionamento Automático:
+
+Em ambientes de nuvem, ferramentas de dimensionamento automático podem ser usadas para adicionar ou remover servidores com base na carga de trabalho, contribuindo para a escalabilidade e alta disponibilidade.
