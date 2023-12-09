@@ -143,7 +143,7 @@
 ##### Os switches são amplamente utilizados em redes locais para conectar dispositivos, como computadores, impressoras e outros dispositivos. Eles permitem a comunicação direta e eficiente entre os dispositivos na mesma rede. #####
 
 ### :round_pushpin:Hubs: ###
-#### Função: ####
+#### Função: #### 
 ##### Os hubs são dispositivos de camada 1 (camada física) que simplesmente repetem os dados recebidos para todas as portas. Eles não tomam decisões de encaminhamento e não segmentam o tráfego. #####
 #### Utilização: ####
 ##### Os hubs eram comuns em redes antigas, mas hoje em dia são pouco utilizados. Eles são inadequados para redes de alto desempenho devido à falta de eficiência no gerenciamento de tráfego. #####
